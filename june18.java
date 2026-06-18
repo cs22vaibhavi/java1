@@ -1,0 +1,29 @@
+//conditional statement
+import java.util.*;
+class conditions1 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        //int age=sc.nextInt();   //for input value 
+        int age=80;           //gives output quickly
+
+        if(age>18){
+            System.out.println("Adult");
+        }else{
+            System.out.println("Not adult");
+        }
+    }
+}
+
+class conditions2{
+    public static void main(String[] args) {
+        int age=50;
+        if(age>18){
+            System.out.println("Adult");
+        }else{
+            System.out.println("child");
+        }
+
+    }
+}
+
+
